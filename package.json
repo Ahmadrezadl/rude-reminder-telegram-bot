@@ -1,0 +1,24 @@
+{
+  "name": "rude-reminder-telegram-bot",
+  "version": "1.0.0",
+  "description": "This is a Telegram bot project written in JavaScript that reminds users of things they need to do. However, the bot has a rude personality and uses bad language while reminding users of their tasks. The bot will be connected to the Telegram Bot API, and it will use the node-telegram-bot-api library to handle incoming messages and schedule reminders. ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ahmadrezadl/rude-reminder-telegram-bot.git"
+  },
+  "keywords": [
+    "telegram",
+    "bot",
+    "reminder"
+  ],
+  "author": "Ahmadrezadl",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Ahmadrezadl/rude-reminder-telegram-bot/issues"
+  },
+  "homepage": "https://github.com/Ahmadrezadl/rude-reminder-telegram-bot#readme"
+}
