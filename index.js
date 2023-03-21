@@ -32,7 +32,7 @@ function getRandomBadWord() {
 // Function to modify a message to include a bad word
 function getMessageWithBadWord(message) {
     return message.slice(13,message.length)
-        .replace("my", "your") + ", " + getRandomBadWord();
+        .replace("my", "your") + ", " + getRandomBadWord() + "!";
 }
 
 // Function to convert a time string to seconds
@@ -43,11 +43,12 @@ function convertTimeToSeconds(timeString) {
         hour: 3600,
         minute: 60,
         second: 1,
+        sec: 1,
     };
     if (timeString == "tomorrow") {
         return timeUnits.day;
     }
-    const regex = /(\d+)\s*(days?|hours?|minutes?|seconds?)/gi;
+    const regex = /(\d+)\s*(days?|hours?|minutes?|seconds?|secs?)/gi;
     let totalSeconds = 0;
     let match;
     while ((match = regex.exec(timeString)) !== null) {
