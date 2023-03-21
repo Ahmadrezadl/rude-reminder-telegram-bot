@@ -6,6 +6,7 @@ const token = process.env.TELEGRAM_BOT_TOKEN;
 
 // Create a new Telegram bot instance
 const bot = new TelegramBot(token, { polling: true });
+console.log("Bot started!");
 
 // Define an array of "bad words"
 const badWords = [
@@ -30,8 +31,8 @@ function getRandomBadWord() {
 
 // Function to modify a message to include a bad word
 function getMessageWithBadWord(message) {
-    return message.replace("remind me to ", "")
-        .replace("my", "your") + " " + getRandomBadWord();
+    return message.slice(13,message.length)
+        .replace("my", "your") + ", " + getRandomBadWord();
 }
 
 // Function to convert a time string to seconds
