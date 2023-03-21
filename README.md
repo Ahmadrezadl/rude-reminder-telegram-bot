@@ -1,4 +1,4 @@
-# Rude Telegram Reminder Bot
+# Telegram Rude Reminder Bot
 
 This is a Telegram bot project written in JavaScript that reminds users of things they need to do. However, the bot has a rude personality and uses bad language while reminding users of their tasks. 
 
