@@ -25,6 +25,7 @@ Once the bot is running, you can send it messages to schedule reminders.
 There is no command, you should talk to him like a human :))
 For example:
 remind me to poop
+![example of bot usage](bot-example.png)
 
 ## License
 
